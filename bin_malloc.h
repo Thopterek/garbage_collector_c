@@ -25,7 +25,7 @@
 void	*bin_malloc(ssize_t size);
 
 /*
-	Functions that utilize the garbage collector
+	Functions that utilize the garbage collector internally
 */
 void	bin_bzero(void *s, size_t n);
 void	*bin_calloc(size_t count, size_t size);
