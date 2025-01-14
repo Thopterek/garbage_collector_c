@@ -23,6 +23,8 @@ This version needs to be reworked depending on the need of the project:
 - debugging logging for allocations being made and/or failure
 - mutexes to make it thread safe
 
+A lot of inspiration and proper idea was presented to me by @ilies1511
+
 if you find something more to be reworked or there is some basic case in which it fails: 
 - option one: write me
 - option two: get in contact by any means necessary
