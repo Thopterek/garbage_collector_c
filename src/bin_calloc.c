@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
 void	*bin_calloc(size_t count, size_t size)
 {

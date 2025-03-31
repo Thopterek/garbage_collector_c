@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
 char	*bin_strmapi(char const *s, char (*f)(unsigned int, char))
 {

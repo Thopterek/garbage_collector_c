@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "inc/bin_malloc.h"
 
 /*
 	Actual pointer needed by the caller
@@ -115,15 +115,15 @@ This is just for testing
 // #include <stdio.h>
 // int main(void)
 // {
-// 	char *str = bin_strdup("This is a test");
-// 	printf("%s\n", str);
-// 	char **split = bin_split(str, ' ');
-// 	printf("Oh look\n%s\n", split[0]);
-// 	printf("%s\n", split[1]);
-// 	printf("%s\n", split[2]);
-// 	printf("%s\n", split[3]);
-// 	int *numbers = bin_malloc(sizeof(int) * 1);
-// 	numbers[0] = 5;
-// 	printf("Grade %d out of %d\n", numbers[0], numbers[0]);
-// 	bin_malloc(-1);
+// char *str = bin_strdup("This is a test");
+// printf("%s\n", str);
+// char **split = bin_split(str, ' ');
+// printf("Oh look\n%s\n", split[0]);
+// printf("%s\n", split[1]);
+// printf("%s\n", split[2]);
+// printf("%s\n", split[3]);
+// int *numbers = bin_malloc(sizeof(int) * 1);
+// numbers[0] = 5;
+// printf("Grade %d out of %d\n", numbers[0], numbers[0]);
+// bin_malloc(-1);
 // }

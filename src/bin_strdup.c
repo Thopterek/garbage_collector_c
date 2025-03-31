@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
 char	*bin_strdup(const char *s1)
 {

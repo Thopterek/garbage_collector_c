@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
 static char	*loop_logic(char *str, int copy, int minus, int cc)
 {

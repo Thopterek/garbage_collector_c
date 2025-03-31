@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
 size_t	bin_strlcpy(char *dst, const char *src, size_t dstsize)
 {

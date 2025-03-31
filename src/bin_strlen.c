@@ -1,38 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   bin_bzero.c                                        :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ndziadzi <ndziadzi@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/08 16:44:37 by ndziadzi          #+#    #+#             */
-/*   Updated: 2025/01/09 11:43:55 by ndziadzi         ###   ########.fr       */
+/*   Created: 2024/10/08 08:59:13 by ndziadzi          #+#    #+#             */
+/*   Updated: 2025/01/09 13:06:34 by ndziadzi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "bin_malloc.h"
+#include "../inc/bin_malloc.h"
 
-void	bin_bzero(void *s, size_t n)
+size_t	bin_strlen(const char	*s)
 {
-	size_t			cc;
-	unsigned char	*tmp;
+	size_t	n;
 
-	cc = 0;
-	tmp = (unsigned char *)(s);
-	while (cc < n)
-	{
-		tmp[cc] = '\0';
-		cc++;
-	}
+	n = 0;
+	while (s[n] != '\0')
+		n++;
+	return (n);
 }
 
 // #include <string.h>
+// #include <stdlib.h>
 // int main(void)
 // {
-//   char str[] = "almost every bank account";
-//   char copy[] = "almost every bank account";
-//   bzero (str, 6);
-//   printf("this is how OG bzero works:\n %s\n",str);
-//   ft_bzero(copy, 6);
-//   printf("this is how my ft works:\n%s\n",copy);
+// 	char* skrr = "five5";
+// 	char* zero = "";
+// 	printf("This is my FT\n%zu\n", ft_strlen(skrr));
+// 	printf("This is my FT\n%zu\n", ft_strlen(zero));
+// 	printf("This is OriGinal\n%lu\n", strlen(skrr));
+// 	printf("This is OriGinal\n%lu\n", strlen(zero));
 // }

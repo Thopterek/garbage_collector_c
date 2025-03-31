@@ -4,11 +4,11 @@
 
 NAME = garbage_collector
 
-SRCS =	bin_malloc.c	bin_bzero.c		bin_calloc.c \
-		bin_itoa.c		bin_split.c		bin_strdup.c \
-		bin_strjoin.c	bin_strlcat.c	bin_strlcpy.c \
-		bin_strlen.c	bin_strmapi.c	bin_strrchr.c \
-		bin_strtrim.c	bin_substr.c	bin_strchr.c
+SRCS =	bin_malloc.c	src/bin_bzero.c		src/bin_calloc.c \
+		src/bin_itoa.c		src/bin_split.c		src/bin_strdup.c \
+		src/bin_strjoin.c	src/bin_strlcat.c	src/bin_strlcpy.c \
+		src/bin_strlen.c	src/bin_strmapi.c	src/bin_strrchr.c \
+		src/bin_strtrim.c	src/bin_substr.c	src/bin_strchr.c
 
 OBJ = $(SRCS:.c=.o)
 
